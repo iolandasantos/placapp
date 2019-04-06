@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/AppTheme"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <TextView style="@style/input_home"
+              android:text="@string/label_teams"
+              android:textSize="45sp"
+              android:textStyle="bold"
+              android:gravity="center"
+    />
+
+    <TextView style="@style/label"
+              android:text="@string/label_team_home"/>
+    <EditText style="@style/input_home" android:id="@+id/inputHome"/>
+
+    <TextView style="@style/label"
+              android:text="@string/label_team_away"/>
+    <EditText style="@style/input_away" android:id="@+id/inputAway"/>
+
+    <Button style="@style/button"
+            android:text="@string/label_start_game" android:id="@+id/btStart"/>
+
+</LinearLayout>
